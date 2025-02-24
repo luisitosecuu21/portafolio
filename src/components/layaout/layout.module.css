@@ -1,0 +1,17 @@
+/* Layout.css */
+.container {
+    display: flex;
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #fefefe;
+    padding: 20px;
+}
+
+.mainContent {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
